@@ -1,5 +1,5 @@
 function myFunction() {
-  var number = prompt("Please enter your name", "100");
+  var number = prompt("Please enter price", "100");
   if (number > 1000) {
   	alert("Число "+ number + " Є занадто великим, введіть число менше 1000");
   } else if ( number < 50){
