@@ -3,19 +3,19 @@ const weekdayChanged = weekday.toLowerCase();
 function dayCheck() {
 	if (weekdayChanged === 'monday' || weekdayChanged === 'tuesday' || weekdayChanged === 'wednesday' || weekdayChanged === 'thursday'|| weekdayChanged === 'friday' || weekdayChanged === 'saturday' || weekdayChanged === 'sunday') {
 		if (weekdayChanged === 'monday') {
-			alert('1');
+			return '1';
 		}else if (weekdayChanged === 'tuesday') {
-			alert('2')
+			return '2';
 		}else if (weekdayChanged === 'wednesday') {
-			alert('3')
+			return '3';
 		}else if (weekdayChanged === 'thursday') {
-			alert('4')
+			return '4';
 		}else if (weekdayChanged === 'friday') {
-			alert('5')
+			return '5';
 		}else if (weekdayChanged === 'saturday') {
-			alert('6')
+			return '6';
 		}else if (weekdayChanged === 'sunday') {
-			alert('7')
+			return '7';
 		}
 	}else{
 		alert('Use only days of the week');
