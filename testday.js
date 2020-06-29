@@ -10,18 +10,18 @@ if(/^\s*(\w+)\s*$/.test(typedByUser)) {
 		if(/[0-9]/.test(typedByUser)){
 			return "dont use numbers in input";
 		}else{
-					if(index === -1) {
+			if(index === -1) {
 			return 'Use only days of the week';
-	}
+}
 			if (index >= 0 && index < 6) {
 			return index + 1;
-	}
-		}
-	}else{
-	return "Max 10 symbols!"
-	}
+}
+}
 }else{
-	return "Dont use Cyrillic characters!";
+return "Max 10 symbols!";
+}
+}else{
+return "Dont use Cyrillic characters!";
 }
 }
 document.write(indexChanged);
