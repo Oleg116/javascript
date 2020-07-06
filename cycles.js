@@ -1,5 +1,5 @@
 let name = prompt('Hi, what is your name?');
-let nuOfGuesses = 0;
+let nuOfGuesses = 1;
 
 while (name == '' || name == null) {
  name = prompt('Hi, what is your name?');	
